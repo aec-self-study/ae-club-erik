@@ -21,3 +21,6 @@ sources:
             tests:
               - unique
               - not_null
+      - name: order_items
+      - name: product_prices
+      - name: products
