@@ -21,13 +21,6 @@ sources:
             tests:
               - unique
               - not_null
-  - name: web_tracking
-    project: analytics-engineers-club
-    tables:
-      - name: pageviews
-        columns:
-          - name: id
-            description: primary key of the model
-            tests: 
-              - unique
-              - not_null
+      - name: order_items
+      - name: product_prices
+      - name: products
