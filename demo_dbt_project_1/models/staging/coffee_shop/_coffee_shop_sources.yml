@@ -36,6 +36,10 @@ sources:
             description: "" 
       - name: order_items
       - name: product_prices
+        columns:
+          - name: price
+            tests:
+              - value
         tests:
               - dbt_utils.mutually_exclusive_ranges:
                   lower_bound_column: min(price)
