@@ -5,4 +5,5 @@ select
     , timestamp
     , pageviews
     , customer_id
+    , current_date as snapshot_date 
 from {{source('web_tracking','pageviews') }} as pageviews
