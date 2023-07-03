@@ -6,4 +6,5 @@ select
     , pageviews
     , customer_id
     , current_date as snapshot_date 
+    , 'Erik Chu' as author 
 from {{source('web_tracking','pageviews') }} as pageviews
